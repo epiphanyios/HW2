@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration page</title>
+    </head>
+
+    <body>
+        <form action="2.html" method="post" > 
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email" required> <br> <br>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd" required> <br>
+            <p>Username: <input type="text" name="username" required> </p>
+            <p>Name: <input type="text" name="name" required> </p>
+            <p>Surname: <input type="text" name="surname" required> </p>
+            
+            <p>Course: </p>
+            <select required>
+                <option>English</option>
+                <option>Computer Science</option>
+                <option>Interior Design</option>
+                <option>Architecture</option>
+
+
+            </select>
+            <br> <br>
+            <label>Gender:</label> <br>
+            <input type="radio" name="gender" required> Male <br>
+            <input type="radio" name="gender" required> Female <br> <br>
+            
+           
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"> <br> <br>
+
+            <label>Interests:</label> <br>
+            <input type="checkbox" id="user_interest"><label>Music</label> <br>
+            <input type="checkbox" id="user_interest"><label>Programming</label> <br>
+            <input type="checkbox" id="user_interest"><label>Art</label> <br> <br>
+
+            <label for="phone">Enter your phone number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="87771234567" pattern="[0-9]{11}" required><br><br>
+            
+            
+            <input type="submit" value="Sign up">
+         
+        </form>
+      
+    </body>
+
+
+
+
+</html>
